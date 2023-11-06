@@ -1,4 +1,54 @@
 
+
+.cabecalho_menu{
+    display: flex;
+    gap: 30px;
+    align-items:center;
+    background-color: black;
+    height: 80px;
+    width: auto;
+    padding: 0 25px;
+    justify-content: right;
+}
+
+.cabecalho_menu_link{
+    background-color: #5ec57e;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 0;
+    
+}
+
+.cabecalho_menu_link:hover{
+    background-color:rgb(89, 140, 13);
+}
+
+.vagas{
+    color: #347571;
+    direction:ltr;
+    font-family:YACgEQzTv38-0;
+    margin-left:0em;
+    line-height:1.26562698em;
+    text-align:center;
+    text-transform:none;
+    letter-spacing:0em;
+}
+
+.rodape{
+padding: 24px;
+color: white;
+background-color: black;
+text-align: center;
+font-size: 24px;
+font-weight: 400;
+}
+
+
 :root {
     --ffsd: 0px;
     --1vw: calc((100vw - var(--sbw, 0px)) / 100);
@@ -6805,39 +6855,13 @@ img {
         opacity: 1.0;
     }
 }
-</style>
-<noscript>
-<style>
+
     @keyframes pulse {
     }
 
     .animated {
         animation-play-state: running !important;
     }
-</style>
-</noscript>
-<script nonce='fc9fae0a-4cb5-44b8-a287-9a68c78727ae'>
-!function() {
-    "use strict";
-    function t(t, n) {
-        let e;
-        return (...o)=>{
-            clearTimeout(e),
-            e = setTimeout((()=>{
-                t(...o)
-            }
-            ), n)
-        }
-    }
-    class n {
-        constructor() {
-            this.callbacks = [],
-            window.addEventListener("DOMContentLoaded", (()=>this.onDOMContentLoaded()))
-        }
-        onDOMContentLoaded() {
-            this.callbacks.sort(((t,n)=>t.priority - n.priority)).forEach((({callback: t})=>t()))
-        }
-        runOnLoad(t) {
-            "loading" === document.readyState ? this.callbacks.push(t) : t.callback()
-        }
-    }
+
+
+

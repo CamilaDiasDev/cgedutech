@@ -217,11 +217,6 @@ nonce='fc9fae0a-4cb5-44b8-a287-9a68c78727ae'>
                 }
                 ].forEach((t=>t()))
             }();
-        </script>
+       
         
-        <script nonce="fc9fae0a-4cb5-44b8-a287-9a68c78727ae">
-        window.C_CAPTCHA_IMPLEMENTATION = 'RECAPTCHA';
-    </script>
-    <script nonce="fc9fae0a-4cb5-44b8-a287-9a68c78727ae">
-        window.C_CAPTCHA_KEY = '6Ldk59waAAAAAMPqkICbJjfMivZLCGtTpa6Wn6zO';
-    </script>
+       
